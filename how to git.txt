@@ -1,0 +1,11 @@
+* so sign in to Github Desktop
+
+* put the unity project folder in the git folder
+
+it's `Documents/Github/LEG` probably
+
+(the changes should show up in the github desktop app)
+
+* then either make a branch or commit it to main (branch is probably safer)
+
+* then hit push
