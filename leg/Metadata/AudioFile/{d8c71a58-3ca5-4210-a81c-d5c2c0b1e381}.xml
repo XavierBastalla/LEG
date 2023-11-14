@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{d8c71a58-3ca5-4210-a81c-d5c2c0b1e381}">
+		<property name="assetPath">
+			<value>zombies/groan/groan3.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.7440000000000002</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{73b1e70f-21f3-4d56-a74d-51828448f88c}</destination>
+		</relationship>
+	</object>
+</objects>

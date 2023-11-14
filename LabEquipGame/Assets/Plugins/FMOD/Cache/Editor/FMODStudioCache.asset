@@ -1,0 +1,317 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8811815141894400065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Rifle
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Rifle
+  Guid:
+    Data1: 94351804
+    Data2: 1225456745
+    Data3: -1094944848
+    Data4: -1722230388
+  Banks:
+  - {fileID: 3849634930986603222}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2240
+--- !u!114 &-5039113830090574859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/zombies/zomGroan
+  m_EditorClassIdentifier: 
+  Path: event:/zombies/zomGroan
+  Guid:
+    Data1: -1166340759
+    Data2: 1337643782
+    Data3: -1404615258
+    Data4: 2020872905
+  Banks:
+  - {fileID: 3849634930986603222}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &-4537460050959107675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../leg/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638355135630435176
+  FileSizes:
+  - Name: Desktop
+    Value: 1284
+  Exists: 1
+--- !u!114 &-803856163312564783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/player/playerHurt
+  m_EditorClassIdentifier: 
+  Path: event:/player/playerHurt
+  Guid:
+    Data1: 578772067
+    Data2: 1279039220
+    Data3: -1014494291
+    Data4: -678226454
+  Banks:
+  - {fileID: 3849634930986603222}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 301
+--- !u!114 &-586810159884683638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Reload
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Reload
+  Guid:
+    Data1: 21440384
+    Data2: 1143593277
+    Data3: 2141012908
+    Data4: -267314961
+  Banks:
+  - {fileID: 3849634930986603222}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1056
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -4537460050959107675}
+  - {fileID: 3849634930986603222}
+  EditorEvents:
+  - {fileID: 18897850458900803}
+  - {fileID: 2262685272168301399}
+  - {fileID: -803856163312564783}
+  - {fileID: -5039113830090574859}
+  - {fileID: 6554970695300108291}
+  - {fileID: -586810159884683638}
+  - {fileID: -8811815141894400065}
+  - {fileID: 2065517307110056292}
+  - {fileID: 6625400956660861744}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 3849634930986603222}
+  StringsBanks:
+  - {fileID: -4537460050959107675}
+  cacheTime: 638355135630435176
+  cacheVersion: 131609
+--- !u!114 &18897850458900803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Pistol
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Pistol
+  Guid:
+    Data1: 443240193
+    Data2: 1145806958
+    Data3: -355247723
+    Data4: -1301180205
+  Banks:
+  - {fileID: 3849634930986603222}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 240
+--- !u!114 &2065517307110056292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/player/footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/player/footsteps
+  Guid:
+    Data1: 1327338197
+    Data2: 1196144385
+    Data3: 1039406520
+    Data4: 1864683744
+  Banks:
+  - {fileID: 3849634930986603222}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8877
+--- !u!114 &2262685272168301399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UIclick
+  m_EditorClassIdentifier: 
+  Path: event:/UIclick
+  Guid:
+    Data1: -662067163
+    Data2: 1114023421
+    Data3: 505120695
+    Data4: -1024039425
+  Banks:
+  - {fileID: 3849634930986603222}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 180
+--- !u!114 &3849634930986603222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../leg/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638355135630415061
+  FileSizes:
+  - Name: Desktop
+    Value: 476896
+  Exists: 1
+--- !u!114 &6554970695300108291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/zombies/zomDeath
+  m_EditorClassIdentifier: 
+  Path: event:/zombies/zomDeath
+  Guid:
+    Data1: 1357119084
+    Data2: 1205782853
+    Data3: 77515708
+    Data4: 1803108105
+  Banks:
+  - {fileID: 3849634930986603222}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &6625400956660861744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/player/jump
+  m_EditorClassIdentifier: 
+  Path: event:/player/jump
+  Guid:
+    Data1: 194790658
+    Data2: 1159033294
+    Data3: 1556090762
+    Data4: 1231859717
+  Banks:
+  - {fileID: 3849634930986603222}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 430
